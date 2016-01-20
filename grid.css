@@ -1,0 +1,81 @@
+.grid {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.grid *{
+  box-sizing: border-box;
+}
+
+[class*="col"]{
+  float: left;
+  padding: 20;
+}
+/*[class*="row"]{
+  float: left;
+  float: clear;
+}
+
+.col5-5.row1-5{
+  width: 100%;
+  heigth: 100%;
+  background-color: orange;
+}
+
+.col1-5 {
+  width: 20%;
+  background-color: red;
+}
+
+.col2-5 {
+  width: 40%;
+  background-color: green;
+}
+
+.col3-5 {
+  width: 60%;
+  background-color: pink;
+}
+
+.row1-5 {
+  height: 20px;
+}
+.row4-5 {
+  height: 80px;
+}
+.row2-5 {
+  height: 40px;
+}*/
+
+
+.col1{
+  width: 20%;
+  height: 50px;
+  background-color: blue;
+}
+.col2{
+  width: 20%;
+  height: 50px;
+  background-color: yellow;
+}
+.col3{
+  width: 20%;
+  height: 50px;
+  background-color: red;
+}
+.col4{
+  width: 20%;
+  height: 50px;
+  background-color: green;
+}
+.col5{
+  width: 20%;
+  height: 50px;
+  background-color: pink;
+}
+
+.col2-5 {
+  width: 40%;
+  height: 20px;
+  background-color: orange;
+}
